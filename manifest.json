@@ -3,6 +3,12 @@
   "short_name": "QRHandler",
   "start_url": "/index.html",
   "scope": "/",
+    "scope_url": "https://qr.eventmagic.co/",
+  "intent_filters": {
+    "scope_url_scheme": "https",
+    "scope_url_host": "qr.eventmagic.co",
+    "scope_url_path": "/"
+  },
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
