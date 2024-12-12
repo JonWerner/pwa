@@ -7,7 +7,7 @@ self.addEventListener('install', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
-  if (event.request.url.startsWith('https://test.eventmagic.co')) {
+  if (event.request.url.startsWith('test.eventmagic.co://')) {
     event.respondWith(fetch(event.request));
   } else {
     event.respondWith(
